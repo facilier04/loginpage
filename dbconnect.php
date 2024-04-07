@@ -3,7 +3,7 @@
     $username = "root";
     $password = "";
     $db_name = "login";
-    $conn = new mysqli ($servername, $username, $password, $db_name, 3306);
+    $conn = new mysqli ($servername, $username, $password, $db_name);
     if ($conn-> connect_error)
     {
         die("Connection Failed" .$conn->connect_error);
